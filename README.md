@@ -1,7 +1,7 @@
 # LetsGrow
 
 <H1>Motive</H1>
-We are engaged in developing a one stop solution website for budding entrepreneurs where their startups can connect directly with investment firms/banks/strategic investors as well as there will be a community of entrepreneurs who can share their thoughts. </br>
+We are engaged in developing a one stop solution app for budding entrepreneurs where their startups can connect directly with investment firms/banks/strategic investors as well as there will be a community of entrepreneurs who can share their thoughts. </br>
 </br>
 
 <H2>The Major factors of letsGrow:</H2>
