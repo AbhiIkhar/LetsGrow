@@ -10,3 +10,12 @@ We are engaged in developing a one stop solution website for budding entrepreneu
 <li>Invite based pitching to investors (Pitch Rooms, Pitch Deck submission)</li>
 <li>Listing Government Sponsored Schemes (Startup India Seed Funds Scheme)</li>
 <li>Upskilling village entrepreneurs (Volunteer based / Hiring people)</li>
+
+<H2>UI Design</H2>
+<a href="https://www.figma.com/file/zCYGzvuMaTy28Fd8HBLPjF/letsGrow">letGrow UI</a>
+
+<H2>Contributors</H2>
+  <li> <a href = "https://www.linkedin.com/in/abhishek-ikhar-668692206/"> Abhishek Ikhar </a> </li>
+  <li> <a href = "https://www.linkedin.com/in/thegauravgaikwad/"> Gaurav Gaikwad </a> </li>
+  <li> <a href = "https://www.linkedin.com/in/hrushabh-jadhav-9a21211b7/"> Hrushabh Jadhav </a> </li>
+  <li> <a href = "https://www.linkedin.com/in/samiksha-hiran-248294222/"> Samiksha Hiran </a> </li>
