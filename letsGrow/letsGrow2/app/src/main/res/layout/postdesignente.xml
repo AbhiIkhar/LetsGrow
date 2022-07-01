@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="10dp"
+        android:layout_height="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/employeeimg"
+            app:civ_border_width="0.1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            app:cardElevation="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/postname"
+                android:layout_height="15dp"
+                android:text="Hrushabh Jadhav "
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColor="@color/black"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="300dp"
+            android:id="@+id/posttext"
+            android:layout_marginTop="35dp"
+            android:text="Hii this is my post"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginLeft="60dp"
+            android:layout_height="150dp"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

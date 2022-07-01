@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterEntre">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="70dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:layout_width="357dp"
+            android:id="@+id/entname"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Name"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="49dp"
+            android:id="@+id/entemail"
+            android:inputType="textEmailAddress"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Email Address"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200dp"
+            android:id="@+id/entpass"
+            android:inputType="textPassword"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Password"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="270dp"
+            android:id="@+id/entbusiname"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Business Name"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="410dp"
+            android:id="@+id/entlocation"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Headquarters location"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="49dp"
+            android:id="@+id/entnoemp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="480dp"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Number of employees"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="49dp"
+            android:id="@+id/entmobile"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="340dp"
+            android:inputType="number"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Mobile Number"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="620dp"
+        android:elevation="38dp"
+        android:src="@drawable/regente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="538dp"
+        android:elevation="48dp"
+        android:src="@drawable/purpleback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/entregister"
+        android:src="@drawable/regentebut"
+        android:elevation="58dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

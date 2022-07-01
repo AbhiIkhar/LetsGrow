@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterInvester">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="70dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:layout_width="357dp"
+            android:id="@+id/invename"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Name"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="357dp"
+            android:id="@+id/inveemail"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Email Address"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="49dp"
+            android:id="@+id/invepass"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200dp"
+            android:inputType="textPassword"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Password"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="49dp"
+            android:id="@+id/invedomain"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Domain "
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="340dp"
+            android:id="@+id/invefirm"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Firm name"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:id="@+id/invenoofinve"
+            android:fontFamily="@font/poppins"
+            android:hint="Number of Investments "
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="357dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="480dp"
+            android:background="@drawable/etback"
+            android:elevation="38dp"
+            android:id="@+id/invemobile"
+            android:inputType="number"
+            android:fontFamily="@font/poppins"
+            android:hint="Mobile Number"
+            android:paddingLeft="15dp"
+            android:textColorHint="#555454"
+            android:textSize="18dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="620dp"
+        android:elevation="38dp"
+        android:src="@drawable/regin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="370dp"
+        android:elevation="48dp"
+        android:src="@drawable/yellowback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/registerinve"
+        android:layout_marginTop="600dp"
+        android:elevation="58dp"
+        android:src="@drawable/reginvebut"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

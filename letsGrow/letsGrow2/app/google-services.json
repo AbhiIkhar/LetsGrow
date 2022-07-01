@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "276234074809",
+    "firebase_url": "https://let-s-grow-8b97b-default-rtdb.firebaseio.com",
+    "project_id": "let-s-grow-8b97b",
+    "storage_bucket": "let-s-grow-8b97b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276234074809:android:184f056d6fe0a1ca31f968",
+        "android_client_info": {
+          "package_name": "com.example.letsgrow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276234074809-v02j8q51pcnabgvlg4at0llrl59p7sd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBepPFY43viPr3UFAajSsDp5yBhMRI4pTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276234074809-v02j8q51pcnabgvlg4at0llrl59p7sd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
